@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio 14</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        thead{
+
+            background-color: rgba(0, 0, 0, 0.548);
+            color: white;
+        }
+        td, th{
+            padding: 10px;
+            border: 1px solid black;
+        }
+    .medias{
+        background-color: rgba(0, 0, 0, 0.548); ;
+        color: white;
+        text-align: left;
+
+    }
+    .dado{
+        text-align: center;
+    }
+    .materia{
+        text-align: left;
+        font-style: normal;
+    }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            
+            <tr>
+                <th scope="col" rowspan="2">Área</th>
+                <th scope="col" rowspan="2">Disciplinas</th>
+                <th scope="colgroup" colspan="2">Notas</th>
+                <th scope="col" rowspan="2">Médias</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <th scope= "row" class="materia">Matemática</th>
+                <td class="dado">0.0</td>
+                <td class="dado">0.0</td>
+                <td class="dado">0.0</td>
+            </tr>
+            <tr>
+                <th scope= "row" class="materia">Física</th>
+                <td class="dado">0.0</td>
+                <td class="dado">0.0</td>
+                <td class="dado">0.0</td>
+            </tr>
+            <tr>
+                <th scope= "row" class="materia">Química</th>
+                <td class="dado">0.0</td>
+                <td class="dado">0.0</td>
+                <td class="dado">0.0</td>
+            </tr>
+            <tr>
+                <th scope= "row" class="materia">Biologia</th>
+                <td class="dado">0.0</td>
+                <td class="dado">0.0</td>
+                <td class="dado">0.0</td>
+            </tr>
+            <tr class="medias">
+                <th colspan="4">Médias de Extatas</th>
+                <td class="dado">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup" class="materia">Humanas</th>
+                <th scope="row">História</th>
+                <td class="dado">0.0</td>
+                <td class="dado">0.0</td>
+                <td class="dado">0.0</td>
+            </tr>
+            <tr>
+                <th scope="row">Geografia</th>
+                <td class="dado">0.0</td>
+                <td class="dado">0.0</td>
+                <td class="dado">0.0</td>
+            </tr>
+            <tr class="medias">
+                <th scope="row" colspan="4">Médias de Humanas</th>
+                <td class="dado">0.0</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
